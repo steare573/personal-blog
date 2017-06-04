@@ -1,0 +1,12 @@
+siteTitle = "Sean Teare"
+siteDescr = "Software engineer specializing in Node, React, and architecting projects from the ground up.  Currently residing in Charlotte, NC."
+siteAuthor = "Sean Teare"
+
+siteTwitterUrl = "https://twitter.com/steare573"
+siteGithubUrl = "https://github.com/steare573"
+siteEmailUrl = "steare573@gmail.com"
+siteLinkedInUrl = "https://www.linkedin.com/in/sean-teare-4b166577"
+siteResumeUrl = "Resume-SeanTeare-Updated.pdf"
+googleAnalyticsId = ""
+
+linkPrefix = "/sean-teare/personal-blog/"

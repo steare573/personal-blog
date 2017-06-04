@@ -1,0 +1,109 @@
+.header-container {
+  background-color: #006666;
+  color: white;
+  height: 100px;
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  left: 50%;
+}
+
+
+.header-content {
+  max-width: 1070px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: center;
+  height: 100%;
+  padding: 20px;
+  float:left;
+}
+
+.header-content .main {
+  font-size: 36px;
+}
+
+.header-content .sub {
+  color: #FFD600;
+  font-size: 16px;
+}
+
+.header-content a {
+  color: inherit;
+}
+.bm-burger-button {
+  position: absolute;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+}
+
+.bm-burger-button button {
+  cursor: pointer;
+
+}
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #FFD600;
+  position: relative;
+}
+
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross-button button {
+  cursor: pointer;
+}
+/* Color/shape of close button cross */
+.bm-cross {
+  background: white;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #003366;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list a {
+  color: white;
+  padding: 0.8em;
+  cursor: pointer;
+}
+
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width:500px) {
+  .header-content .main {
+    font-size: 32px;
+  }
+  /*.sidebar {
+    lost-column: 1;
+  }
+  .sidebar .sidebar-inner {
+    padding: 25px 20px 0;
+  }
+  .sidebar .sidebar-inner:after {
+    display: none;
+  }
+
+  .sidebar .sidebar-inner p {
+    display:none;
+  }*/
+}
