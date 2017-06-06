@@ -26,7 +26,7 @@ class SiteLinks extends React.Component {
           )}
           {config.siteLinkedInUrl && (
             <li>
-              <a href={`mailto:${config.siteLinkedInUrl}`}>
+              <a href={`${config.siteLinkedInUrl}`}>
                 <i className="fa fa-linkedin" />
               </a>
             </li>
