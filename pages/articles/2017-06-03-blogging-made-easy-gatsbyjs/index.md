@@ -1,6 +1,6 @@
 ---
 title: Blogging Made Easy with Gatsby.js
-date: "2017-06-0T22:40:32.169Z"
+date: "2017-06-09T22:40:32.169Z"
 author: "Sean Teare"
 layout: post
 path: "/blogging-made-easy-with-gatsbyjs/"
