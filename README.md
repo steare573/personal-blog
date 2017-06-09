@@ -1,24 +1,9 @@
-# Lumen
+# Sean Teare Personal blog
 
 [Gatsby](https://github.com/gatsbyjs/gatsby) starter for creating a blog.
 
-## Features
-+ Clean and extensible code.
-+ Lost Grid ([peterramsing/lost](https://github.com/peterramsing/lost)).
-+ Beautiful Typography ([matejlatin/Gutenberg](https://github.com/matejlatin/Gutenberg)).
-
-## Installing
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new lumen https://github.com/wpioneer/gatsby-starter-lumen`
-
 ## Running in development
 `gatsby develop`
-
-![](http://i.imgur.com/422y5GV.png)
-
-## Ports
-
-[Statinamic port](https://github.com/thangngoc89/statinamic-theme-lumen) by [Khoa Nguyen](https://github.com/thangngoc89)
 
 ## License
 The MIT License (MIT)
