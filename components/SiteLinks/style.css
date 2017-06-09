@@ -30,3 +30,9 @@
 .blog-links ul > li:hover a > i {
   color: #444;
 }
+@media (max-width:500px) {
+  .blog-links ul > li > a > i {
+    padding-left:.4rem;
+  }
+}
+
