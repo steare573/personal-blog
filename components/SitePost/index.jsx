@@ -7,6 +7,8 @@ import ReadNext from '../ReadNext';
 import './style.css';
 import '../../static/css/highlight.css';
 import Header from '../Header';
+import Comments from 'react-disqus-thread';
+
 class SitePost extends React.Component {
   render() {
     const { route } = this.props;
@@ -39,6 +41,13 @@ class SitePost extends React.Component {
               </a>
             </p>
           </div>
+          <Comments
+            shortname={config.disqusShortname}
+            identifier={post.path}
+            title={post.title}
+            url={window.location.href}
+            onNewComment={this.handleNewComment}
+          />
         </div>
       </div>
     );
