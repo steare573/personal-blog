@@ -107,6 +107,11 @@
     line-height: 26px;
     margin-bottom: 26px;
   }
+
+  #disqus_thread {
+    padding: 0 15px;
+  }
+
   .gohome {
     position: static;
     margin: 20px auto 0;
