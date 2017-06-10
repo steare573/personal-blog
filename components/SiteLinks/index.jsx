@@ -12,21 +12,21 @@ class SiteLinks extends React.Component {
         <ul>
           {config.siteTwitterUrl && (
             <li>
-              <a href={config.siteTwitterUrl}>
+              <a href={config.siteTwitterUrl} target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-twitter" />
               </a>
             </li>
           )}
           {config.siteGithubUrl && (
             <li>
-              <a href={config.siteGithubUrl}>
+              <a href={config.siteGithubUrl} target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-github-alt" />
               </a>
             </li>
           )}
           {config.siteLinkedInUrl && (
             <li>
-              <a href={`${config.siteLinkedInUrl}`}>
+              <a href={`${config.siteLinkedInUrl}`} target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-linkedin" />
               </a>
             </li>
@@ -40,7 +40,7 @@ class SiteLinks extends React.Component {
           )}
           {config.siteResumeUrl && (
             <li>
-              <a href={resume}>
+              <a href={resume} target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-user" />
               </a>
             </li>
