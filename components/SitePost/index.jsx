@@ -45,7 +45,7 @@ class SitePost extends React.Component {
             shortname={config.disqusShortname}
             identifier={post.path}
             title={post.title}
-            url={window.location.href}
+            url={`${config.productionHostname}${post.path}`}
             onNewComment={this.handleNewComment}
           />
         </div>
